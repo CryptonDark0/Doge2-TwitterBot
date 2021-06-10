@@ -22,7 +22,7 @@ def get_api_access():
 
 def get_crypto_information():
 
-	doge2_api = urlopen("")#!Insert api to doge2
+	doge2_api = urlopen("")#!Insert api to doge2 from exchange in parent
 	doge2_data = json.load(doge2_api)
 
 
